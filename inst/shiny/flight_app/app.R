@@ -23,11 +23,11 @@ sidebar <- dashboardSidebar(
     menuItem(
       text="Flight status updater",
       tabName="history",
-      icon=icon("eye")),
+      icon=icon("align-justify")),
     menuItem(
       text = 'Ground operations',
       tabName = 'ground',
-      icon = icon('eye')),
+      icon = icon('arrow-alt-circle-down')),
     menuItem(
       text = 'About',
       tabName = 'about',

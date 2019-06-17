@@ -33,15 +33,17 @@ exact_coords <- exact_coords %>%
 site_names <- c('',
                 sort(unique(waypoints$take_off)))
 # Define safety choices
-safety_choices_a <- c('Batteries charged',
-                      'Landing gear in place',
-                      'Rotors show no visible damage',
-                      'Container securely closed and fastened')
-safety_choices_b <- c('Take-off site clear',
-                      'Take-off site weather good',
-                      'Landing site clear',
-                      'Landing site weather good',
-                      'Relay stations OK')
+safety_choices_a <- 'Vehicle has been inspected and is flight-ready'
+# safety_choices_a <- c('Batteries charged',
+#                       'Landing gear in place',
+#                       'Rotors show no visible damage',
+#                       'Container securely closed and fastened')
+safety_choices_b <- c('Conditions, relays, and staff are flight-ready')
+# safety_choices_b <- c('Take-off site clear',
+#                       'Take-off site weather good',
+#                       'Landing site clear',
+#                       'Landing site weather good',
+#                       'Relay stations OK')
 
 # Function for checking log-in
 check_password <- function(user, password, users){
