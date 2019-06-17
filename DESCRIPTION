@@ -1,4 +1,4 @@
-Package: nepal
+Package: nepallite
 Version: 0.0.0.9000
 Title: Package of the Nepal Data Hub
 Description: Build, update, and deploy the Nepal Data Hub web application (www.databrew.cc/nepal)
