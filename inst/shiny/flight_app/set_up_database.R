@@ -1,5 +1,5 @@
 # Define whether setting up local or remote db
-local <- TRUE
+local <- FALSE
 
 # To be run just once
 # First, create database in psql:
@@ -14,7 +14,7 @@ library(gsheet)
 library(yaml)
 library(httr)
 library(RPostgreSQL)
-library(nepal)
+library(nepallite)
 
 
 # Define health_post locations

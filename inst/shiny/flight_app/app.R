@@ -3,7 +3,7 @@ library(shinydashboard)
 library(tidyverse)
 library(ggplot2)
 library(leaflet)
-library(nepal)
+library(nepallite)
 library(owmr)
 
 # Source set up file

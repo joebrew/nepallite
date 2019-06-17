@@ -1,5 +1,5 @@
-local <- TRUE
-library(nepal)
+local <- FALSE
+library(nepallite)
 library(tidyverse)
 library(yaml)
 library(owmr)
@@ -18,7 +18,7 @@ owm_key <- creds$owm_key
 Sys.setenv(OWM_API_KEY = owm_key)
 
 # Read in the waypoints
-waypoints <- nepal::plans
+waypoints <- nepallite::plans
 waypoints <- waypoints %>% filter(longitude != 0)
 unique_flights <- waypoints %>%
   group_by(take_off, landing) %>% tally %>%
